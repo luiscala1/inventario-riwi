@@ -1,8 +1,12 @@
 # inventario-riwi
 Descripción General:
+
 Este programa permite ingresar el nombre, precio y cantidad de un producto, y al final calcula automáticamente el costo total.
+
 Su objetivo es mostrar cómo usar estructuras básicas de control en Python: entrada de datos, validación, bucles y manejo de errores.
+
 ¿Qué hace el programa paso a paso?
+
 Muestra un menú inicial con el texto =MENU=.
 
 Pide el nombre del producto.
@@ -40,15 +44,21 @@ Cantidad
 Costo total
 
 #Cómo usar este programa
+
 Requisitos previos:
+
 Python 3 instalado en tu computadora
 
 Descárgalo desde: https://python.org/downloads/
 
 #Pasos para ejecutar:
+
 -descarga el archivo inventario.py
+
 -Abre la terminal (Windows: CMD, Mac/Linux: Terminal)
+
 -ingresa a la carpeta donde se descargo el archivo dale click izquierdo y seleciona abrir con: python
+
 -se ejecutara el archivo y te pedira ingresar los datos: nombre producto, precio y cantidad
 
 

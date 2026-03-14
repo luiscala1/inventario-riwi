@@ -1,66 +1,81 @@
-# inventario-riwi
-Descripción General:
+# 🛒 Inventario RIWI
 
-Este programa permite ingresar el nombre, precio y cantidad de un producto, y al final calcula automáticamente el costo total.
+## 📌 Descripción
+**Inventario RIWI** es un programa en Python que permite registrar productos ingresando su **nombre**, **precio** y **cantidad**.  
+El sistema valida los datos y calcula automáticamente el **costo total** del producto (`precio × cantidad`).  
+Finalmente, muestra una **factura final** con toda la información ingresada.
 
-Su objetivo es mostrar cómo usar estructuras básicas de control en Python: entrada de datos, validación, bucles y manejo de errores.
+---
 
-¿Qué hace el programa paso a paso?
+## ⚙️ ¿Qué hace el programa paso a paso?
 
-Muestra un menú inicial con el texto =MENU=.
+1. **Muestra un menú inicial**  
+   Al ejecutar el programa, aparece el siguiente texto:
+   ```text
+   =MENU=
+2. **Solicita el nombre del producto**  
+   - El usuario debe escribir únicamente **letras** (sin números ni símbolos).  
+   - Si se escribe algo incorrecto, el programa volverá a pedir el nombre.  
+   - Cuando el texto es válido, muestra:
+     ```text
+     texto valido
+     ```
 
-Pide el nombre del producto.
+3. **Solicita el precio del producto**  
+   - Debe escribirse un **número mayor que cero** (por ejemplo: `20.5`).  
+   - Si se ingresa una letra, símbolo o número menor o igual a cero, el programa pedirá nuevamente el valor.
+4. **Solicita la cantidad de productos**  
+   - Debe escribirse un **número entero positivo** (por ejemplo: `3`).  
+   - Si no es válido, el programa pedirá el valor otra vez.
 
-El usuario debe escribir únicamente letras (sin números ni símbolos).
+6. **Muestra una factura final** con la información completa:
+   ```text
+   ===== FACTURA FINAL =====
+   Nombre del producto: ...
+   Precio unitario: ...
+   Cantidad: ...
+   Costo total: ...
+   ==========================
 
-Si se escribe algo incorrecto, el programa pedirá de nuevo el nombre.
+## 🚀 Cómo usar este programa
 
-Cuando el texto es válido, muestra el mensaje texto valido.
+### 🔧 Requisitos previos
+Antes de ejecutar el programa, asegúrate de tener instalado:
+- **Python 3** en tu computadora  
+  📥 Descárgalo desde: [https://python.org/downloads/](https://python.org/downloads/)
 
-Pide el precio del producto.
+---
 
-Debe escribirse un número (por ejemplo, 20.5).
+### 💻 Pasos para ejecutar (paso a paso)
 
-Si se pone una letra o un número menor o igual a cero, el programa lo vuelve a solicitar.
+#### Para **Windows**:
+1. **Descarga** `inventario.py` a tu escritorio o carpeta Downloads.
+2. **Click derecho** sobre el archivo `inventario.py` 👆
+3. Selecciona **"Abrir con"** → **"Python"**  
+   *(Si no aparece Python, ve al método 2)*
+4. ¡Listo! Se ejecutará automáticamente 😎
 
-Pide la cantidad de productos.
+#### Para **Mac**:
+1. **Descarga** `inventario.py`.
+2. **Click derecho** → **"Abrir con"** → **"Python 3.x"**.
+3. El programa se abrirá y funcionará.
 
-Debe escribirse un número entero positivo (por ejemplo, 3).
+#### Para **Linux**:
+1. **Click derecho** → **"Abrir con"** → **"Python 3"**.
 
-Si no es válido, el programa pedirá el valor otra vez.
+---
 
-Calcula el costo total.
+### 💡 Si Python NO aparece en "Abrir con":
 
-Multiplica el precio por la cantidad.
+**Opción A - Windows:**
+1. **Instala Python** marcando ✅ **"Add Python to PATH"** durante la instalación.
+2. **Click derecho** → **"Abrir con"** → **"Elegir otra aplicación"** → busca `python.exe`.
 
-Muestra una "factura final" con la siguiente información:
+---
 
-Nombre del producto
-
-Precio unitario
-
-Cantidad
-
-Costo total
-
-#Cómo usar este programa
-
-Requisitos previos:
-
-Python 3 instalado en tu computadora
-
-Descárgalo desde: https://python.org/downloads/
-
-#Pasos para ejecutar:
-
--descarga el archivo inventario.py
-
--Abre la terminal (Windows: CMD, Mac/Linux: Terminal)
-
--ingresa a la carpeta donde se descargo el archivo dale click izquierdo y seleciona abrir con: python
-
--se ejecutara el archivo y te pedira ingresar los datos: nombre producto, precio y cantidad
-
-
-
+## 👨‍💻 Autor
+**Desarrollado por:** Luis Cala  
+📍 **Barranquilla, Atlántico, Colombia**  
+🌐 **riwi**  
+🗓 **2026**
 
